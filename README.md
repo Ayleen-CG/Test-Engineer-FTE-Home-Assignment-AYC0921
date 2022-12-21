@@ -9,5 +9,5 @@ This Project was built taking its test framework design into consideration to ma
 I wasn't able to complete the third scenario due to it requiring posts by other users. The web page states that it is not possible to view other posts but your own.
 
 The code was built utilizing Selenium JAVA in IntelliJ and uses the chrome driver to automate the webpage. It is necesary to install a chrome driver compatible with your browser in the project file, but I included in the file the driver I used.
-All other dependencies are already listen in the POM.XML file.
+All other dependencies such as TestNG are also already listed in the POM.XML file.
 *Before running the code it is also necesary to change the path of the installed driver to your local directory where it's stored, this should be done in the BaseTest class under the 'test' -> 'java' directory* 
